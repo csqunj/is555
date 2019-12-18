@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Crushed|Source+Sans+Pro&display=swap" rel="stylesheet">
+<title>The Room</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="normalize.min.css">
+<link rel='stylesheet' href='swiper.min.css'>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body translate="no">
+<div class="logo"></div>
+<div class="blog-slider">
+<div class="blog-slider__wrp swiper-wrapper">
+<div id="home" class="blog-slider__item swiper-slide">
+<div class="blog-slider__content">
+</div>
+</div>
+<div id="about" class="blog-slider__item swiper-slide">
+<div class="blog-slider__content">
+  <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Synopsis')" id="defaultOpen">Synopsis</button>
+    <button class="tablinks" onclick="openCity(event, 'Cast')">Cast</button>
+    <button class="tablinks" onclick="openCity(event, 'FilmStills')">Film Stills</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Synopsis" class="tabcontent">
+      <h2>The Room (2003)</h2>
+      <p>R | 1h 39min | Drama | 3 March 2004 (Australia)</p>  
+      <p>Johnny is a successful banker who lives happily in a San Francisco townhouse with his fiancée, Lisa. One day, inexplicably, she gets bored with him and decides to seduce his best friend, Mark. From there, nothing will be the same again.</p>
+          <p>
+          Director: Tommy Wiseau</br>
+          Writer: Tommy Wiseau</br>
+          Stars: Tommy Wiseau, Juliette Danielle, Greg Sestero, Philip Haldiman, Carolyn Minnott</br>
+          </p>
+          <p>Come see the Midnight Movie phenomenon that sells out screenings around the globe with a special screening of Tommy Wiseau’s The Room®️ in all its spectacularly insane glory! Find an upcoming event near you!</p>
+  </div>
+  
+  <div id="Cast" class="tabcontent">
+      <div class="castrow">
+          <div class="castcolumn">
+            <div class="card">
+              <img src="image/Wiseau.jpg" alt="Wiseau" style="width:100%">
+              <div class="castcontainer">
+                <h2>Tommy Wiseau</h2>
+                <p class="title">Director and Star</p>
+                <p>European-American actor and filmmaker, best known for writing, producing, directing, and starring in the 2003 film The Room.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="castcolumn">
+            <div class="card">
+              <img src="image/Danielle.jpg" alt="Danielle" style="width:100%">
+              <div class="castcontainer">
+                <h2>Juliette Danielle</h2>
+                <p class="title">Star</p>
+                <p>American actress best known for her starring role in the 2003 film The Room.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="castcolumn">
+            <div class="card">
+              <img src="image/Sestero.jpg" alt="Sestero" style="width:100%">
+              <div class="castcontainer">
+                <h2>Greg Sestero</h2>
+                <p class="title">Star</p>
+                <p>American actor, writer, filmmaker, and model best known for his role as Mark in the 2003 cult film The Room.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="castcolumn">
+              <div class="card">
+                <img src="image/Milicevic.jpg" alt="Milicevic" style="width:100%">
+                <div class="castcontainer">
+                  <h2>Mladen Milicevic</h2>
+                  <p class="title">Music</p>
+                  <p>Bosnian-American composer of experimental music, sound installation, and film music.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  
+  <div id="FilmStills" class="tabcontent">
+    <div class="piccontainer">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+          <img src="image/still6.png" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+          <img src="image/still4.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+          <img src="image/still5.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+          <img src="image/still3.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+          <img src="image/still8.jpg" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <!-- Thumbnail images -->
+      <div class="picrow">
+        <div class="piccolumn">
+          <img class="demo cursor" src="image/still6.png" style="width:100%" onclick="currentSlide(1)" alt="Film Still 1">
+        </div>
+        <div class="piccolumn">
+          <img class="demo cursor" src="image/still4.jpg" style="width:100%" onclick="currentSlide(2)" alt="Film Still 2">
+        </div>
+        <div class="piccolumn">
+          <img class="demo cursor" src="image/still5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Film Still 3">
+        </div>
+        <div class="piccolumn">
+          <img class="demo cursor" src="image/still3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Film Still 4">
+        </div>
+        <div class="piccolumn">
+          <img class="demo cursor" src="image/still8.jpg" style="width:100%" onclick="currentSlide(5)" alt="Film Still 5">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="blog-slider__item swiper-slide">
+<div class="blog-slider__content">
+    <div class="h_iframe">
+        <iframe src="https://www.youtube.com/embed/9-dIdFXeFhs" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
+<div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__content">
+      <div>
+        <div class="screenings"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=14WzLM5JOQYfCE8OaQQCs-J6ASn1KvLf4" width="720" height="400"></iframe></div>
+      </div>
+      
+    </div>
+    </div>
+<div class="blog-slider__item swiper-slide">
+<div class="blog-slider__content">
+    <div class="accordionItem open">
+          <h2 class="accordionItemHeading">Jean Look, 18 January 2004</h2>
+          <div class="accordionItemContent">
+            <p>The Room is the cult film of  all time. But the audience participation is what made it a classic. I love this film it is one of my all time favorites. You either like The Room or you don't.  Well,  worth  watching again and again.  Johnny:  "You are tearing me apart Lisa."</p>
+          </div>
+        </div>
+    
+        <div class="accordionItem close">
+          <h2 class="accordionItemHeading">Brickyard Jimmy, 20 January 2004</h2>
+          <div class="accordionItemContent">
+            <p>I have now seen Mr. Tommy Wiseau’s cinematic tour-de-force, "The Room" three times. With each viewing, "The Room" becomes more complexly entangled in and inseparable from my own life. I no longer know where The Room ends and I begin.</p>
+            <p>It is, without question, the worst film ever made. Including movies made on beta max video cameras in special education high school classes. But, this comment is in no way meant to be discouraging. Because while The Room is the worst movie ever made it is also the greatest way to spend a blisteringly fast 100 minutes in the dark.</p>
+          </div>
+        </div>
+
+        <div class="accordionItem close">
+          <h2 class="accordionItemHeading">Every Guys Nightmare at First, 11 July 2003</h2>
+          <div class="accordionItemContent">
+            <p>This new film by producer Tommy Wiseau, demands that you have a sense of humor. This black comedy includes the best cinematography of San Francisco since Hitchcock's Vertigo. Wiseau, a new and mysterious presence on the Hollywood film making scene, produced and stars as the lead in the roller coaster ride of emotions which tun the gamut from hysterical laughter to gut wrenching guilt.</p>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__content">
+        <div class="row">
+            <div class="column">
+                <div class="container">
+              <img src="image/dvd.jpg" alt="dvd" class="image" style="width:100%">
+              <div class="middle">
+                  <a target="_blank" href="http://www.theroommoviestore.com/product/the-room-dvd-by-tommy-wiseau-world-wide-format/"><div class="text">Get It</div></a>
+                </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+              <img src="image/backpack.jpg" alt="backpack" class="image" style="width:100%">
+              <div class="middle">
+                  <a target="_blank" href="http://www.theroommoviestore.com/product/black-tommy-wiseau-backpack-love-is-blind/"><div class="text">Get It</div></a>
+                </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                <img src="image/shirt.jpg" alt="shirt" class="image"  style="width:100%">
+                <div class="middle">
+                    <a target="_blank" href="http://www.theroommoviestore.com/product/white-youre-tearing-me-apart-lisa-t-shirt/"><div class="text">Get It</div></a>
+                  </div>
+              </div>
+              </div>
+              <div class="column">
+                  <div class="container">
+                <img src="image/underwear.jpg" alt="underwear" class="image" style="width:100%">
+                <div class="middle">
+                    <a target="_blank" href="http://www.theroommoviestore.com/product/3-pack-briefs-designed-by-tommy-wiseau/"><div class="text">Get It</div></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <div class="center">
+          <a target="_blank" href="http://www.theroommoviestore.com/" class="blog-slider__button">View All Merchandise</a>
+        </div>
+    </div>
+    </div>
+
+
+<div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__content">
+        <div class="contact">
+            <form action="action_page.php">
+          
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter Your Name*">
+          
+              <label for="lname">Your Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter Your Email*">
+          
+              <label for="country">I'd like to</label>
+              <select id="country" name="country">
+                <option value="australia">Promote the Film</option>
+                <option value="canada">Join the Fan Club</option></select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Add a message" style="height:150px"></textarea>
+          
+              <input type="submit" value="Subscribe">
+          
+            </form>
+          </div>
+    </div>
+    </div>
+  </div>
+
+
+<div class="blog-slider__pagination"></div>
+</div>
+<ul class="navbar">
+        <li><a href="#" id="slide1">Home</a></li>
+        <li><a href="#" id="slide2">About</a></li>
+        <li><a href="#" id="slide3">Trailer</a></li>
+        <li><a href="#" id="slide4">Screening</a></li>
+        <li><a href="#" id="slide5">Press</a></li>
+        <li><a href="#" id="slide6">Store</a></li>
+        <li><a href="#" id="slide7">Get Involved</a></li>
+</ul>
+
+<script src='jquery.min.js'></script>
+<script src='swiper.min.js'></script>
+<script id="rendered-js">
+var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+
+    document.querySelector('#slide1').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(1, 0);
+    });
+    document.querySelector('#slide2').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(2, 0);
+    });
+    document.querySelector('#slide3').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(3, 0);
+    });
+    document.querySelector('#slide4').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(4, 0);
+    });
+    document.querySelector('#slide5').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(5, 0);
+    });
+    document.querySelector('#slide6').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(6, 0);
+    });
+    document.querySelector('#slide7').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.slideTo(7, 0);
+    });
+
+    var accItem = document.getElementsByClassName('accordionItem');
+    var accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem close';
+        }
+        if (itemClass == 'accordionItem close') {
+            this.parentNode.className = 'accordionItem open';
+        }
+    }
+
+document.getElementById("defaultOpen").click();
+
+    function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+    </script>
+</body>
+</html>
